@@ -6,6 +6,7 @@ class PlayerList extends Component {
     render() {
         return (
             <div>
+                <h4>Players</h4>
                 <ul className="list-group">
                     {
                         this.props.players.map((player, index) => {

@@ -10,7 +10,6 @@ class App extends Component{
     render() {
         return (
             <div className="App">
-                <h4>Players</h4>
                 <div className="row">
                     <div className="col-4">
                         <PlayerList />

@@ -6,6 +6,7 @@ class WorldXI extends Component{
     render() {
         return (
             <div>
+                <h4>World XI Squad</h4>
                 <ul classname="list-group">
                     {
                         this.props.worldxi.map((player, index) => {
